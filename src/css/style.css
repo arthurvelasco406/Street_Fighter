@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+
+#logo{
+    display: flex;
+
+    margin-top: 5%;
+
+}
+
+#logo img{
+    margin: 0 auto;
+    width: 50%;
+    max-width: 450px;
+}
+
+#tela{
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    
+    height: 50%;
+    width: 90%;
+    max-width: 825px;
+    max-height: 540px;
+}
+
+#tela img{
+    height: 100%;
+    width: 100%;
+}
+
+#players{
+    display: flex;
+    position: absolute;
+    
+    height: 43%;
+    width: 40%;
+    
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    justify-content: space-between;
+    
+
+}
+
+.player{
+    max-width: 30%;
+    /* height: 100%; */
+    /* width: 30%; */
+}
+
+#pl2{
+    transform: rotateY(0.5turn);
+}
+
