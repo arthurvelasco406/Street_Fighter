@@ -22,7 +22,6 @@ function renderPlayer(player) {
 
 }
 
-
 function renderSelect() {
     let html = '';
     for (let i = 0; i < pers.length; i++) {
