@@ -28,6 +28,8 @@ body{
     position: relative;
 
     overflow: hidden;
+
+    justify-content: center;
     
     height: 50%;
     width: 90%;

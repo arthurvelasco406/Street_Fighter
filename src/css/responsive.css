@@ -6,7 +6,10 @@
     }
 
     #cena{
-        transform: scale(1.2);
+        width: auto;
+        transform: scale(-1.-2);
+        transform-origin: center center;
+
     }
 
 }
