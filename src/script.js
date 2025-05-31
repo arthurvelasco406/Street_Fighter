@@ -22,10 +22,13 @@ function renderPlayer(player){
 
 
 function renderSelect(){
-    
+    let html = '';
     for(let i = 0; i < pers.length; i++){
-        select.innerHTML = '<div class="select"><img src="src/images/menu/'+pers[i]+'.png" alt=""></div>'
+        html += '<div class="select"><img src="src/images/menu/'+pers[i]+'.png" alt=""></div>';
         
+        console.log(pers[i]);
     }
+
+    select.innerHTML = html;
 
 }
