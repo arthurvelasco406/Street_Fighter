@@ -1,0 +1,12 @@
+
+@media(max-width: 480px){
+
+    #tela{
+        height: 300px;
+    }
+
+    #cena{
+        transform: scale(1.2);
+    }
+
+}

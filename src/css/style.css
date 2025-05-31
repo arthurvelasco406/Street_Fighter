@@ -26,6 +26,8 @@ body{
     margin: 0 auto;
     margin-top: 50px;
     position: relative;
+
+    overflow: hidden;
     
     height: 50%;
     width: 90%;
@@ -33,7 +35,7 @@ body{
     max-height: 540px;
 }
 
-#tela img{
+#cena{
     height: 100%;
     width: 100%;
 }
@@ -54,8 +56,6 @@ body{
 
 .player{
     max-width: 30%;
-    /* height: 100%; */
-    /* width: 30%; */
 }
 
 #pl2{
@@ -90,8 +90,6 @@ body{
     border: solid #6b6b6b 3px;
     cursor: pointer;
 }
-
-
 
 .select img{
     height: 100%;
