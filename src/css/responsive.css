@@ -20,4 +20,8 @@
         max-width: 40%;
     }
 
+    #container-select{
+        min-width: 70%;
+    }
+
 }
