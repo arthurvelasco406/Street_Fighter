@@ -1,8 +1,8 @@
-const select = document.querySelector("#select");
-
 let p1 = document.querySelector("#pl1");
 
 let p2 = document.querySelector("#pl2");
+
+let select = document.querySelector("#container-select");
 
 let pers = ['ryu','ehonda','blanka','guile','ken','chunli','zangief','dhalsim'];
 
@@ -21,3 +21,11 @@ function renderPlayer(player){
 }
 
 
+function renderSelect(){
+    
+    for(let i = 0; i < pers.length; i++){
+        select.innerHTML = '<div class="select"><img src="src/images/menu/'+pers[i]+'.png" alt=""></div>'
+        
+    }
+
+}
