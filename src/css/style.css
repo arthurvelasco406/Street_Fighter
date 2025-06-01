@@ -111,7 +111,7 @@ body{
     display: flex;
     justify-content: center;
 
-    margin-top: 200px;
+    margin-top: 15%;
 }
 
 #titulo-bios h1{
@@ -155,4 +155,29 @@ body{
 .personagem:hover{
     transform: scale(1.5);
     transition: 0.2s;
+}
+
+
+/*-------- Rodape --------*/
+
+#rodape{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+    background-color: #141414;
+
+    gap: 20%;
+}
+
+#rodape p{
+    color: white;
+    font-size: 20px;
+}
+
+#rodape a{
+    color: rgb(90, 194, 197);
 }
