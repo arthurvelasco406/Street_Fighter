@@ -133,16 +133,19 @@ body{
 
     row-gap: 5%;
 
-    width: 80%;
+    width: 50vw;
 }
 
 .personagem{
     width: 100%;
     height: 100%;
+
+    /*Faz uma transação suave quando o cursor sai*/
+    transition: transform 0.2s;
 }
 
 .personagem img{
-    width: 100%;
+    width: 70%;
     height: 100%;
 }
 

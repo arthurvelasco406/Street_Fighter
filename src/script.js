@@ -34,6 +34,6 @@ function renderSelect() {
 
 function renderPersonagens(){
     for(let i = 0; i < pers.length; i++){
-        containerBios.innerHTML += '<div class="personagem"><img src="src/images/bio/'+pers[i]+'.png" alt=""><div class="nome"><p>'+pers[i].charAt(0).toUpperCase()+pers[i].substring(1)+'</p></div></div>'
+        containerBios.innerHTML += '<div class="personagem"><img src="src/images/bio/'+pers[i]+'.png" alt=""></div>'
     }
 }
