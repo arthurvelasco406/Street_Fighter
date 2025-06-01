@@ -8,6 +8,10 @@ let pers = ['ryu', 'ehonda', 'blanka', 'guile', 'ken', 'chunli', 'zangief', 'dha
 
 let selectList = document.querySelectorAll('.img-select');
 
+let containerBios = document.querySelector("#container-bios");
+
+let personagens = document.querySelectorAll(".personagem");
+
 let control = false;
 
 function renderPlayer(player) {
@@ -23,11 +27,13 @@ function renderPlayer(player) {
 }
 
 function renderSelect() {
-    let html = '';
-    for (let i = 0; i < pers.length; i++) {
-        html += '<div class="select"><img src="src/images/menu/' + pers[i] + '.png" alt="" class="img-select" onClick=renderPlayer("'+pers[i]+'")></div>';
+    for(let i = 0; i < pers.length; i++) {
+        containerSelect.innerHTML += '<div class="select"><img src="src/images/menu/' + pers[i] + '.png" alt="" class="img-select" onClick=renderPlayer("'+pers[i]+'")></div>';
     }
+}
 
-    containerSelect.innerHTML = html;
-
+function renderPersonagens(){
+    for(let i = 0; i < pers.length; i++){
+        containerBios.innerHTML += '<div class="personagem"><img src="src/images/bio/'+pers[i]+'.png" alt=""><div class="nome"><p>'+pers[i].charAt(0).toUpperCase()+pers[i].substring(1)+'</p></div></div>'
+    }
 }

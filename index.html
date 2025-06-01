@@ -8,15 +8,19 @@
 
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <div id="logo">
-    
+
             <img src="src/images/logo.png" alt="logo">
-    
+
         </div>
     </header>
 
@@ -25,24 +29,47 @@
         <section>
 
             <div id="tela">
-                
-                <img src="src/images/fundo.jpg" alt="" id="cena">     
-                
+
+                <img src="src/images/fundo.jpg" alt="" id="cena">
+
                 <div id="players">
                     <img src="src/images/gifs/ryu.gif" alt="" class="player" id="pl1">
-                    
+
                     <img src="src/images/gifs/ken.gif" alt="" class="player" id="pl2">
-                </div>   
-                
+                </div>
+
             </div>
-            
+
             <div id="container-select"></div>
-            
+
         </section>
 
         <section>
 
-            <div id="titulo-bios"><h1>Personagens</h1></div>
+            <div id="titulo-bios">
+                <h1>Personagens</h1>
+            </div>
+
+            <div id="container-bios">
+
+                <!-- <div class="personagem">
+                    <img src="src/images/bio/ryu.png" alt="">
+                </div>
+
+                <div class="personagem">
+                    <img src="src/images/bio/ken.png" alt="">
+                </div>
+
+                <div class="personagem">
+                    <img src="src/images/bio/blanka.png" alt="">
+                </div>
+
+                <div class="personagem">
+                    <img src="src/images/bio/guile.png" alt="">
+                </div> -->
+
+
+            </div>
 
 
 
@@ -55,6 +82,8 @@
     <script>
 
         renderSelect();
+
+        renderPersonagens();
 
     </script>
 
