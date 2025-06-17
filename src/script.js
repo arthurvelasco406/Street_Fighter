@@ -4,7 +4,7 @@ let p2 = document.querySelector("#pl2");
 
 let containerSelect = document.querySelector("#container-select");
 
-let pers = ['ryu', 'ehonda', 'blanka', 'guile', 'ken', 'chunli', 'zangief', 'dhalsim'];
+let pers = ['ryu', 'e.Honda', 'blanka', 'guile', 'ken', 'chun-li', 'zangief', 'dhalsim'];
 
 let selectList = document.querySelectorAll('.img-select');
 
@@ -32,7 +32,7 @@ function renderSelect() {
 
 function renderPersonagens() {
     for (let i = 0; i < pers.length; i++) {
-        containerBios.innerHTML += '<div class="personagem"><img src="src/images/bio/' + pers[i] + '.png" alt=""><div class="texto-bio">dasdasdsadasdadasdsadasdsadasdasdsdaiv</div></div>'
+        containerBios.innerHTML += '<div class="personagem"><img src="src/images/bio/' + pers[i] + '.png" alt="'+pers[i]+'"><div class="texto-bio"><p>'+pers[i].charAt(0).toUpperCase()+pers[i].slice(1)+'</p></div></div>'
     }
 
     /*Como as div personagens sao criadas só aqui, não tenho acesso antes, preciso fazer o listeners aqui, pois fora elas não existem*/
@@ -42,12 +42,12 @@ function renderPersonagens() {
 
     for(let i = 0; i < personagens.length; i++){
         personagens[i].addEventListener('mouseover', function(){
-            textoBios[i].classList.add("bio-ativa");
+            textoBios[i].style.display = "block";
         });
 
 
         personagens[i].addEventListener('mouseout', function(){
-            textoBios[i].classList.remove("bio-ativa");
+            textoBios[i].style.display = "none";
         });
 
     }

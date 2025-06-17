@@ -115,7 +115,7 @@ body{
 }
 
 #titulo-bios h1{
-    color: #ff7c24;
+    color: #f8500e;
     font-family: "Limelight", sans-serif;
     font-size: 3vw;
 }
@@ -141,8 +141,6 @@ body{
     width: 100%;
     height: 100%;
 
-    border: solid 2px white;
-
     cursor: pointer;
 
     display: flex;
@@ -155,7 +153,6 @@ body{
 .personagem img{
     width: 70%;
     height: 100%;
-    border: solid 2px white;
 
 }
 
@@ -165,28 +162,33 @@ body{
 }
 
 .texto-bio{
-    border: solid 2px white;
-    color: white;
     display: none;
 
-    width: 10%;
+    color: white;
+    position: absolute;
+    top: 80%;
+
+    width: 100%;
+    height: 20%;
+    font-size: 100%;
+    max-width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 8px rgb(0, 0, 0);
+}
+
+.texto-bio p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Limelight", sans-serif;
+    color: #f8500e;
+    
+    width: 100%;
     height: 100%;
     
+    margin: 0px;
 }
-
-.bio-ativa{
-    display: block;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 /*-------- Rodape --------*/
