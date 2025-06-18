@@ -21,7 +21,6 @@ function renderPlayer(player) {
         p2.setAttribute('src', 'src/images/gifs/' + player + '.gif');
         control = false;
     }
-    
 }
 
 function renderSelect() {
