@@ -2,6 +2,10 @@
     #container-bios{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    #titulo-bios h1{
+        font-size: 5vw;
+    }
 }
 
 @media(max-width: 480px){

@@ -110,13 +110,16 @@ body{
 #titulo-bios{
     display: flex;
     justify-content: center;
-
+    padding: 0px;
     margin-top: 15%;
+    margin-bottom: 5%;
+    align-content: center;
 }
 
 #titulo-bios h1{
     color: #f8500e;
     font-family: "Limelight", sans-serif;
+    margin: 0px;
     font-size: 3vw;
 }
 
